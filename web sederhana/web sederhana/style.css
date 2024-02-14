@@ -1,0 +1,123 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 100px;
+    margin-right: 100px;
+    position: relative;
+}
+
+.logo a {
+    font-size: 30px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #40A2E3;
+    margin-inline-start: 20px;
+    lin3 20pxww
+}
+.menu{
+    flood-color: #000000;
+}
+
+nav {
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    line-height: 50px;
+    position: sticky;
+    position: -webkit-sticky; 
+
+    background: #ffffff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 20px 0px 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.kolom .deskripsi {
+    font: 100px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #40A2E3;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20 , px;
+    color: #40A2E3;
+    width: 100%;
+    line-height: 40px;
+
+}
+a.tbl-biru {
+    background: #0C2D57;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #Fc5185;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #Fc5185;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    }
+
+    a.tbl-pink:hover {
+        background: #572e0c;
+        text-decoration: none;
+    }
+
